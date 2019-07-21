@@ -9,3 +9,4 @@ class MathClass:
     def mult(self, arg1):
         self.arg1 = arg1
         print( self.arg * self.arg1 )
+        print("")
