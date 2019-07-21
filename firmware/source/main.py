@@ -11,3 +11,11 @@ print(emp1)
 print('{} {}'.format(emp1.first, emp1.last))
 
 print(' fullname: ' + emp1.getFullname())
+print('{} '.format(emp1.emp_counter))
+
+emp2 = Employer.createEmployer('juan', 'zorrilla', 120000)
+
+print(' fullname: ' + emp2.getFullname())
+print('{} '.format(emp2.emp_counter))
+
+emp1.printsomething('hola mundo')
